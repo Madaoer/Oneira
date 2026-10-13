@@ -9,6 +9,8 @@
 [![Website](https://img.shields.io/badge/Website-Oneira-blue)](https://madaoer.github.io/projects/oneira/)
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://madaoer.github.io/projects/oneira/assets/oneira.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-2610.01614-red)](https://arxiv.org/abs/2610.01614)
+[![Weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-Oneira-yellow)](https://huggingface.co/Madaoer-Otaku/Oneira_example_weights)
+[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Oneira-yellow)](https://huggingface.co/datasets/Madaoer-Otaku/Oneira_example_data)
 
 </div>
 
