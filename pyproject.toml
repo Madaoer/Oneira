@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oneira"
+version = "0.1.0"
+description = "Oneira: from open-ended generation to open-world interaction in video world models"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["oneira*"]
+
+[tool.ruff]
+line-length = 120

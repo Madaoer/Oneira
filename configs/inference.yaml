@@ -1,0 +1,3 @@
+# Sampling settings that rarely change. scripts/inference.sh sets the rest; command-line flags override this file.
+flow_shift: 12.0
+audio_flow_shift: 3.0

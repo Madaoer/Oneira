@@ -1,0 +1,9 @@
+# Training recipe. scripts/train.sh sets the paths; command-line flags override this file.
+lora_rank: 128
+lora_targets: qkv_proj,out_proj
+i2v_rate: 0.8
+weight_decay: 0.01
+lr: 1.0e-4
+epochs: 15
+seed: 42
+shard_size: 8

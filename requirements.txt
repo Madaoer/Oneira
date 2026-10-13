@@ -1,0 +1,26 @@
+# Pinned to the environment the released examples were generated with (PyTorch 2.11, CUDA 12.8).
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+torchaudio==2.11.0+cu128
+diffsynth @ git+https://github.com/modelscope/DiffSynth-Studio.git@a9c0c37
+transformers==5.12.1
+tokenizers==0.22.2
+sentencepiece==0.2.2
+protobuf==7.35.1
+accelerate==1.14.0
+peft==0.20.0
+modelscope==1.39.1
+datasets==5.0.1
+pandas==3.0.5
+huggingface_hub==1.26.0
+safetensors==0.8.0
+einops==0.8.2
+ftfy==6.3.1
+imageio==2.37.4
+imageio-ffmpeg==0.6.0
+lmdb==2.3.0
+av==18.0.0
+pillow==12.2.0
+numpy==2.4.4
+pyyaml==6.0.3

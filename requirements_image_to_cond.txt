@@ -1,0 +1,13 @@
+# Extra packages for oneira.image_to_cond, pinned like requirements.txt. Their declared dependencies include demo-only
+# packages (gradio, viser, ...), so install without them:
+#   pip install --no-deps -r requirements_image_to_cond.txt
+lingbot-map @ git+https://github.com/Robbyant/lingbot-map.git@1f480aeb8a47a24656090d46d053115b7fe60435
+geocalib @ git+https://github.com/cvg/GeoCalib.git@97b8968e7798a66bf04fcf791fb535624241bda7
+moge @ git+https://github.com/microsoft/MoGe.git@07444410f1e33f402353b99d6ccd26bd31e469e8
+utils3d @ git+https://github.com/EasternJournalist/utils3d.git@3fab839f0be9931dac7c8488eb0e1600c236e183
+scipy==1.15.3
+opencv-python-headless==4.13.0.92
+kornia==0.8.2
+kornia_rs==0.1.14
+moderngl==5.12.0
+glcontext==3.0.0

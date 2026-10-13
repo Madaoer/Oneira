@@ -1,0 +1,17 @@
+# Walk up to the wicker basket and set it on fire (first frame of examples/memory).
+motion: interact
+stop_distance: 0.9               # metres from the object where the camera stops; the action happens in chunk 3
+objects:
+  basket:
+    word: wicker basket          # SAM3 text prompt
+    class: wicker basket         # name used in the prompt
+action:
+  object: basket
+  type: fire                     # pick, open, close, smash, shoot, fire, freeze, ice_out, invisible or gild
+scene:                           # global caption pieces, written by you; or give a complete global_caption instead
+  type: "hotel lobby lounge"
+  time_weather: "indoor artificial light"
+  materials: ["polished marble floor tiles", "dark polished wood", "textured beige wallpaper", "woven wicker basket", "patterned fabric upholstery", "glazed ceramic planter", "gilded picture frame"]
+  objects: "the wicker basket on the console table"   # what rests in the scene, as one phrase
+  lighting: "Warm golden light casts downward from an overhead chandelier, recessed ceiling spotlights, and table lamps, reflecting softly across the polished floor."
+  description: "A spacious hotel lobby features polished cream marble floor tiles with subtle veining and glossy reflections. Along the right wall stands a dark wood console table featuring curved legs, a lower shelf, and a smooth finished surface. A woven wicker basket with an arched handle rests upon this console table. Above the table, a framed landscape painting in a gilded ornate frame hangs against the textured beige wall. Beyond the console table, a potted palm with slender green fronds sits inside a dark glazed ceramic planter adjacent to a square structural pillar with wooden trim. To the left extends an open seating area defined by a dark patterned area rug over the marble floor. Multiple upholstered armchairs occupy this lounge space, including a patterned blue and gold armchair, a mustard yellow fabric armchair, and deep red sofas set around low wooden tables. A round dark wood table supports a bouquet arrangement of fresh flowers. Table lamps with pleated cream shades rest on side surfaces, while a framed picture hangs on the far left wall. The ceiling showcases recessed panels and spotlights surrounding a multi-arm chandelier with candle-style bulbs. Dark wood paneling and architectural columns define the perimeter, extending toward a dark wood reception desk with interior lighting. A doorway and framed wall art accent the back paneled walls."

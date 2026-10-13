@@ -1,0 +1,20 @@
+# Walk along the sidewalk while the parked car drives off (the condition video of examples/navigation).
+motion: navigate
+navigate:
+  speed: 1.0                     # m/s, forward for the whole clip
+  left: 1.0                      # metres stepped to the left over the second half
+  turn: -12.0                    # degrees turned over the second half (negative = right)
+objects:                         # everything that gets a box in the condition video
+  car:
+    word: car                    # SAM3 text prompt; car#1 = the second car from the left
+    class: dark blue sedan       # name used in the prompt
+    size: [4.7, 1.8, 1.45]       # optional size prior in metres (length, width, height); only the rear is visible
+    along_path: true             # heading along the walking direction
+    drive: {speed: 3.0, accel: 1.0}   # optional: drives off along its heading (m/s, m/s^2)
+scene:                           # global caption pieces, written by you; or give a complete global_caption instead
+  type: "residential street with commercial storefront"
+  time_weather: "clear daytime"
+  materials: ["concrete paving slabs", "asphalt road surface", "roughcast pebble-dash stucco", "frosted window glass", "dark metal facade paneling", "red brick boundary walls"]
+  objects: "the dark blue sedan on the road"   # what rests in the scene, as one phrase
+  lighting: "Soft low-angled daylight illuminates the street from the front, casting subtle shadows under a pale blue sky."
+  description: "A straight asphalt road lies alongside a concrete slab pavement and stone curbing. Along the left side of the street stands a building featuring a ground-floor commercial frontage with dark grey framing, an empty signboard, and frosted glass window panes. Above the storefront, the exterior consists of roughcast pebble-dash masonry with white-trimmed upper windows. Beside this structure, a stone boundary wall encloses a paved path, where a dark plastic refuse bin rests on the ground. A dark blue sedan is parked parallel to the curb on the asphalt roadway. Bare deciduous trees with branched crowns grow from gaps along the sidewalk, alongside a vertical post mounted with a rectangular street sign. Further along the left side, two-story pebble-dash residential houses with gabled roofs and brick chimneys flank the street behind brick garden walls. Across the street on the right, an elongated three-story block of residential flats built from roughcast stucco borders a continuous brick boundary wall. The multi-family residential building features repeated rectangular windows, entry doors, multiple chimney stacks along the pitched roofline, and black waste containers positioned near the doorways. A metal streetlamp pole rises from the sidewalk on the opposite side of the road, and the roadway shows faint painted markings down the driving lane. Overhead, an unobstructed pale blue sky extends across the entire setting."
